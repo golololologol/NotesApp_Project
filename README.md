@@ -20,7 +20,6 @@
 
 ### **Frontend Setup**
 1. Go into `frontend` folder.
-   - `cd notes-app-client`
 2. **Install Additional Packages:**
    - Run: `npm install axios react-router-dom bootstrap`
 3. **Run the React App:**
