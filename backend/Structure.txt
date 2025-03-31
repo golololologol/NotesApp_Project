@@ -1,0 +1,28 @@
+﻿NotesAPI/
+├── Controllers/
+│   ├── AuthController.cs
+│   └── NotesController.cs
+├── Data/
+│   └── ApplicationDbContext.cs
+├── Helpers/
+│   └── JwtTokenGenerator.cs
+├── Middlewares/
+│   └── ExceptionMiddleware.cs
+├── Models/
+│   ├── Entities/
+│   │   ├── ApplicationUser.cs
+│   │   └── Note.cs
+│   └── DTOs/
+│       ├── AuthModels.cs
+│       ├── NoteCreateDto.cs
+│       ├── NoteUpdateDto.cs
+│       └── NoteResponseDto.cs
+├── Services/
+│   ├── IAuthService.cs
+│   ├── AuthService.cs
+│   ├── INoteService.cs
+│   └── NoteService.cs
+├── Properties/
+│   └── launchSettings.json
+├── appsettings.json
+└── Program.cs
